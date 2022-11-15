@@ -1,0 +1,9 @@
+.wpcf7-form.sent .wpcf7-response-output {
+  animation: hideresp 5s forwards; 
+  animation-iteration-count: 1;
+}
+
+@keyframes hideresp {
+  90% { opacity:1; }
+  100% { opacity:0; }
+}
